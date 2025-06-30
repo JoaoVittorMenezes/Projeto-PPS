@@ -49,7 +49,7 @@ Chain of Responsability:
 
 R5 - Adicionar as regras de validação de cada exame, de maneira extensível. A validação do Hemograma só analisa se os valores medidos não excede 50% o valor máximo e o mínimo. Por exemplo se para Hemoglobina os valores de referência são de 13.0 a 18.0 milhões/dl , os extemos não podem exceder 6.5 e 27 milhões/dl. No caso de uma ressonância magnética, há diferentes regras de validação que devem ser verificadas, não importa a ordem: (a) verificar a presença de implantes gerais
 
-Foi usado esse padrão nesse requisito de validação porque cada exame tem um validador específico, então há a classe abstrata ValidadorExame que tem a variável de instância para cada tipo de validador e seus métodos que serão utilizados pelas classes concretas, o setNext(), que é padrão para todos e o método validar() que irá ter uma lógica específica em cada. E suas classes concretas, como dito antes tem sua implementação do método validar() e também cada um tem um pode validar para saber se ele é a classe certa para o tipo de exame que será validado.
+Foi usado esse padrão nesse requisito de validação porque cada exame tem um validador específico, então há a classe abstrata ValidadorExame que tem a variável de instância para cada tipo de validador e seus métodos que serão utilizados pelas classes concretas, o setNext(), que é padrão para todos e o método validar() que irá ter uma lógica específica em cada. E suas classes concretas, como dito antes tem sua implementação do método validar() e também cada um tem um podeValidar() para saber se ele é a classe certa para o tipo de exame que será validado, ou seja, cada uma pega o exame e checa se pode validar ele ou não, e passa para o próximo.
 
 Observer:
 
