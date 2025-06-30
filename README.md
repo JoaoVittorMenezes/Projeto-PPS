@@ -12,7 +12,7 @@ Projeto IFPB - Padrões de Projeto de Sistemas
 ![padroes drawio](https://github.com/user-attachments/assets/3cee865a-fbc5-49a0-b7ed-642feae0ff2c)
 
 
-- Link para melhor vizualização:  https://app.diagrams.net/#G1GZlBjgNTW3PGSctl2otyRjK1lvXn3RKa#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+- Link para melhor visualização:  https://app.diagrams.net/#G1GZlBjgNTW3PGSctl2otyRjK1lvXn3RKa#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
 
 
 
