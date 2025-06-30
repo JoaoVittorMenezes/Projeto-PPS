@@ -1,2 +1,2 @@
 # Projeto-PPS
-Projeto IFPB - Padrões de Projeto
+Projeto IFPB - Padrões de Projeto de Sistemas
