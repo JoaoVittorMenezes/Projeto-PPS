@@ -1,3 +1,5 @@
+package Pagamento;
+
 public class Pagamento {
     private DescontoStrategy strategy;
 
