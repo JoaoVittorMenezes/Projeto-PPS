@@ -1,5 +1,7 @@
 package exame;
 
+import notificador.Notificador;
+
 public abstract class GeradorDeLaudo {
     protected Notificador notificador;
 
