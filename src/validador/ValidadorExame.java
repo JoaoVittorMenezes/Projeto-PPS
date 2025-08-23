@@ -1,3 +1,6 @@
 package validador;
 
-public abstract class ValidadorExame {}
+public interface ValidadorExame {
+    void setProximo(ValidadorExame proximo);
+    void validar(Exame exame);
+}
