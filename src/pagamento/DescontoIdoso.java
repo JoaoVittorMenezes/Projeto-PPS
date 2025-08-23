@@ -1,3 +1,5 @@
+package pagamento;
+
 public class DescontoIdoso extends DescontoStrategy {
     protected double desconto = 30;
 

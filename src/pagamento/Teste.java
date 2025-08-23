@@ -1,3 +1,5 @@
+package pagamento;
+
 public class Teste {
     public static void main(String[] args) {
         Pagamento pag1 = new Pagamento();

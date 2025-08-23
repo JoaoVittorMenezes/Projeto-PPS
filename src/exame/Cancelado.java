@@ -1,4 +1,7 @@
+package exame;
+
 public class Cancelado implements ExameState {
-    public void remover() {};
+    public void gerarLaudo() {};
     public void avancarEstado() {};
+    public void cancelar() {};
 }
