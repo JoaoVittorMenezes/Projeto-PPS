@@ -1,4 +1,4 @@
-package Pagamento;
+package pagamento;
 
 public class Pagamento {
     private DescontoStrategy strategy;

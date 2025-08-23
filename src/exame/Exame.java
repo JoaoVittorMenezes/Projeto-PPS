@@ -1,6 +1,4 @@
-package Exame;
-
-import Pagamento.Pagamento;
+package exame;
 
 public abstract class Exame {
     protected GeradorDeLaudo geradorLaudo;
@@ -18,7 +16,7 @@ public abstract class Exame {
     }
 
     public String getLaudo() {
-        this.geradorLaudo.gerarLaudo();
+        return this.geradorLaudo.gerarLaudo();
     }
 
     public void avancarEstado() {
