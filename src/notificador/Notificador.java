@@ -1,5 +1,8 @@
 package notificador;
 
+import modelos.Laudo;
+import modelos.Paciente;
+
 import java.util.HashMap;
 import java.util.Map;
 
